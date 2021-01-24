@@ -1,0 +1,13 @@
+[package]
+name = "bench"
+version = "0.1.0"
+authors = ["Richard Apodaca <rich.apodaca@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+
+# slice version
+gamma = "0.8.1"
+
+# iterator version
+# gamma = { git = "https://github.com/rapodaca/gamma_iter" }
