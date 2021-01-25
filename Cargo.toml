@@ -6,8 +6,5 @@ edition = "2018"
 
 [dependencies]
 
-# slice version
-gamma = "0.8.1"
-
-# iterator version
-# gamma = { git = "https://github.com/rapodaca/gamma_iter" }
+slice = { package = "gamma", version = "0.8.1" }
+iter = {package = "gamma", version = "0.9.0" } 
